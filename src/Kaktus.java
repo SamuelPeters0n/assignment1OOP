@@ -1,4 +1,4 @@
-public class Kaktus extends Växt {
+public class Kaktus extends Växt { //I denna klass förekommer arv och polymorfism
     public Kaktus(String namn, double höjd) {
         super(namn, höjd);
     }

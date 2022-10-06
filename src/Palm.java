@@ -1,4 +1,4 @@
-public class Palm extends Växt{
+public class Palm extends Växt{//I denna klass förekommer arv och polymorfism
     public Palm(String namn, double höjd) {
         super(namn, höjd);
     }

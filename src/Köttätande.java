@@ -1,4 +1,4 @@
-public class Köttätande extends Växt{
+public class Köttätande extends Växt{//I denna klass förekommer arv och polymorfism
     public Köttätande(String namn, double höjd) {
         super(namn, höjd);
     }
@@ -9,6 +9,7 @@ public class Köttätande extends Växt{
         return vatten;
 
     }
+    @Override
     public String TypAvVattenSomBehövs(){
         return TypAvVatten.PROTEINVATTEN.vatten;
     }

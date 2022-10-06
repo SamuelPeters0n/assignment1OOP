@@ -1,4 +1,4 @@
-public interface KalkyleraVatten {
+public interface KalkyleraVatten { //Här förekommer interface
     default double MängdVattenSomBehövsILiter() {
         return 0;
     }

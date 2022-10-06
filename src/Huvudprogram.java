@@ -19,7 +19,7 @@ public class Huvudprogram{
         return växterIHotelet;
     }
 
-    public void skrivUtVäxtensBehandling() {
+    public void skrivUtVäxtensBehandling() { //Nedanför förekommer inkappsling
         Meddelande frågaOchSvara = new Meddelande();
         Växt växtenSomSkaMatas = frågaOchSvara.FrågaAnvändare(skapaVäxter());
         frågaOchSvara.SvaraAnvändare(växtenSomSkaMatas);
